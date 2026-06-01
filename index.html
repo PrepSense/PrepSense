@@ -60,6 +60,25 @@ h1{
     font-weight:bold;
 }
 
+.secondary-button{
+    background:white;
+    color:#333;
+    border:2px solid #333;
+    margin-left:12px;
+}
+
+@media(max-width:600px){
+    .secondary-button{
+        margin-left:0;
+        margin-top:12px;
+    }
+
+    .button{
+        display:block;
+        max-width:260px;
+        margin:12px auto;
+    }
+}
 .section{
     max-width:1000px;
     margin:auto;
@@ -117,8 +136,12 @@ Touch-free food waste disposal while you cook.
 <img class="hero-render" src="hero-render.jpg" alt="PrepSense Caddy touch-free food waste caddy">
 
 <div class="button-wrap">
-    <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSelDeaY-PHq7qRiv03LMCzYO0oMaomBFU4Tg7_EmiwVt6RQoQ/viewform?usp=header">
+    <a class="button" href="YOUR_GOOGLE_FORM_LINK">
         Register Interest
+    </a>
+
+    <a class="button secondary-button" href="partnership.html">
+        Manufacturing Partners
     </a>
 </div>
 
